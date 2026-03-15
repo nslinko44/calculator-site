@@ -1,0 +1,219 @@
+@media (min-width: 0px) and (max-width: 920px) {
+    header {
+        background: linear-gradient(to right, #0f0f0f 0%, #333333  50%, #0f0f0f 100%);
+        height: 140px; 
+        width: 100%;
+
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #name_web {
+        color: #ffffff;
+        font-family: "Montserrat";
+        font-weight: 800;
+        letter-spacing: -0.02em;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    #name_web_2 {
+        color: #ffb733;
+    }
+
+    #menu {
+        background-color: #22222233;
+        height: 60px;
+        width: 465px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        align-items: center;
+        display: flex;
+        border: 2px solid #2828284d;
+        gap: 5%;
+    }
+
+    .link_menu {
+        color: #999999;
+        font-size: 20px;
+        transition: transform 0.3s ease; 
+        text-decoration: none;
+    }
+
+    .link_menu:not(#first):hover {
+        transform: scale(1.1);
+        color: #ffb733;
+    }
+
+    #first {
+        margin-left: auto;
+        color: #ffb733;
+        text-decoration: underline;
+        text-underline-offset: 23px;
+        text-decoration-color: #ffb733;
+        text-shadow: 0 0 8px #ffb733; 
+    }
+
+    #last {
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 950px) {
+    #containers {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .container {
+        width: 450px;
+        transform: translateY(-5px);
+        box-shadow: 0 0 15px rgba(255,165,0,0.25);
+    }
+
+    .text-c {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 1300px) {
+    #cons-3 {
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 50px;
+        
+    }
+
+    .con-3 {
+        height: 300px;
+        width: 450px;
+    }
+
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+    header {
+        background: linear-gradient(to right, #0f0f0f 0%, #333333  50%, #0f0f0f 100%);
+        height: 120px; 
+        width: 100%;
+
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #name_web {
+        color: #ffffff;
+        font-family: "Montserrat";
+        font-weight: 800;
+        letter-spacing: -0.02em;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    #name_web_2 {
+        color: #ffb733;
+    }
+
+    #menu {
+        background-color: #22222233;
+        height: 40px;
+        width: 335px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        align-items: center;
+        display: flex;
+        border: 2px solid #2828284d;
+        gap: 5%;
+    }
+
+    .link_menu {
+        color: #999999;
+        font-size: 13px;
+        transition: transform 0.3s ease; 
+        text-decoration: none;
+    }
+
+    .link_menu:not(#first):hover {
+        transform: scale(1.1);
+        color: #ffb733;
+    }
+
+    #first {
+        margin-left: auto;
+        color: #ffb733;
+        text-decoration: underline;
+        text-underline-offset: 16px;
+        text-decoration-color: #ffb733;
+        text-shadow: 0 0 8px #ffb733; 
+    }
+
+    #last {
+        margin-right: auto;
+    }
+
+
+
+
+
+    .block_1_div #title-b-1 {
+        font-size: 35px;
+    }
+
+    .block_1_div #text-b-1 {
+        font-size: 15px;
+    }
+
+
+
+
+
+
+    #containers {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .container {
+        width: 320px;
+        transform: translateY(-5px);
+        box-shadow: 0 0 15px rgba(255,165,0,0.25);
+    }
+
+    .text-c {
+        font-size: 20px;
+    }
+
+
+
+    .con-3 {
+    width: 320px;
+    height: 400px;
+    }
+
+    .title-c-3 {
+        font-size: 32px;
+    }
+
+
+}
+
+@media (min-width: 0px) and (max-width: 550px) {
+    #win-mes {
+        width: 95%;
+    }
+
+    footer {
+        height: 70px;
+    }
+
+    footer div {
+        font-size: 13px;
+    }
+
+}

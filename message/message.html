@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="message.css">
+    <link rel="stylesheet" href="message_m.css">
+</head>
+<body>
+
+
+    <script src="main.js"></script>
+
+    <header>
+        <div id="name_web">CALC<span id="name_web_2">ULATOR</span></div>
+
+        <div id="menu">
+            <a class="link_menu" id="first" href="../index.html">Головна</a>
+            <a class="link_menu" href="../calculator/calculator.html">Калькулятор</a>
+            <a class="link_menu" href="../about_me/about_me.html">Про мене</a>
+            <a class="link_menu" id="first_ms">Повідомлення</a>
+        </div>
+    </header>
+
+    <section class="mes-sec">
+        <div id="win-mes">
+            <form id="from-inp" onsubmit="return checkForm(this)">
+
+                <div id="title-t"><b>Повідомлення</b></div>
+
+                <input class="inp_el" type="text" name="username" placeholder="Введіть ім'я:">
+                <input class="inp_el" type="email" name="email" autocomplete="off" placeholder="Введіть email:">
+                
+                <textarea id="inp-txt" type="texy" name="message" placeholder="Введіть повідомлення:"></textarea>
+
+                <div class="gen">
+                    <label class="rad">
+                        <input type="radio" name="gender" value="male"> 
+                        <span>Чоловік</span>
+                    </label>
+                    <label class="rad">
+                        <input type="radio" name="gender" value="female"> 
+                        <span>Жінка</span>
+                    </label>
+                </div>
+
+
+                <span id="error"></span>
+                <button>Надіслати</button>
+                
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div id="footer-text">
+            <div>© 2026 Слинько Назар. Всі права захищені.</div>
+            <div>Email: xxxxxxxx@xxx.xxx | Телефон: +380xxxxxxxxx</div>
+        </div>
+    </footer>
+</body>
+</html>
